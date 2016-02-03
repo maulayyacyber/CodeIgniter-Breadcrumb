@@ -8,8 +8,9 @@
 ## Example Use This BreadCrumb
 
 * // load library breadcrumb
-	$this->breadcrumb->append_crumb('','Dashboard', base_url().'admin/dashboard');
-  $this->breadcrumb->append_crumb('current','Link Terkait', '#');
+
+* $this->breadcrumb->append_crumb('','Dashboard', base_url().'admin/dashboard');
+* $this->breadcrumb->append_crumb('current','Link Terkait', '#');
 
 * //view this breadcrumb 
 * <?php print $this->breadcrumb->output(); ?> 
